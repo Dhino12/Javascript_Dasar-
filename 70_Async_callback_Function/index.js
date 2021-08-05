@@ -14,5 +14,5 @@ const orderCoffee = callback => {
 }
 
 orderCoffee(coffee =>  {
-  console.log(coffea);
+  console.log(coffee);
 })

@@ -13,9 +13,9 @@ function makeEspresso() {
         .then(value => {
             console.log(value);
             
-            const promise = [boilWater(), grindCoffeeBeans()]
+            const promise = [boilWater(), grindCoffeeBeans()] 
 
-            return Promise.all(promise)
+            return Promise.all(promise) // promise all
         })
         .then((value) => {
             console.log(value);
