@@ -1,0 +1,2 @@
+## ShadowDOM
+Shadow DOM dapat mengisolasi sebagian struktur DOM di dalam komponen sehingga tidak dapat disentuh dari luar komponen atau nodenya. Singkatnya kita bisa sebut Shadow DOM sebagai “DOM dalam DOM”. 
