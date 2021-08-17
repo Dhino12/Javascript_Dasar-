@@ -1,0 +1,27 @@
+{
+  "name": "copywebpackplugin",
+  "version": "1.0.0",
+  "description": "menyalin resource static dari folder src ke folder dist",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start-dev": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "javscript_dasar"
+  },
+  "keywords": [
+    "copywebpackplugin",
+    "learn_javascript"
+  ],
+  "author": "dhino12",
+  "license": "ISC",
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "html-webpack-plugin": "^5.3.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}

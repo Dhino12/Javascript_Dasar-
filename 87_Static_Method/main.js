@@ -50,7 +50,7 @@ class CarFactory extends Vehicle{
     }
 }
 
-const jokoCar = new Car("H123", "Honda", 4);
+const jokoCar = new Vehicle("H123", "Honda", 4);
 
 CarFactory.repair([jokoCar]);
 

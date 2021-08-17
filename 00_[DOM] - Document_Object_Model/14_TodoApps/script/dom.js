@@ -10,7 +10,7 @@ function addToDo(){
     console.log("timestamp " + timestamp);
 
     const todo = makeTodo(textTodo, timestamp);
-    uncompletedTODOList.append(tod`o)
+    uncompletedTODOList.append(todo)
 }
 
 function makeTodo(data,timestamp, isCompleted){
